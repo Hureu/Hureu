@@ -1,0 +1,52 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange * true
+const findLargestNumber = numbers => Math.max(...numbers);
+false - false
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+grape
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+
+banana
+
+const multiply = (a, b) => a * b;
+// This is a comment
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const sum = (a, b) => a + b;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+
+class MyClass { constructor() { this.property = getRandomString(); } }
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const removeDuplicates = array => Array.from(new Set(array));
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+orange / 5,81,27,36,83,55,81,51,75,67,28,85,81,77,36,8,53,22,17
+const getRandomSubset = (array, size) => array.slice(0, size);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+grape * apple
+let array = getRandomArray(); array.forEach(item => console.log(item));
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+// This is a comment
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+55,82,67,13,31,72,45,69,70,63,46,10,63,78,15,10,67,3,0,83,67,50,89,20,4,37,62,79,95,98,1,82,21,5,99,27,86,83,77,94,36,55,33,25,76,75,60,44,46,81,3,49,89,24,53,98,36,24,82,47,30,10,97,93,55,84,0,45,84,9,75,58,86,66,60,16 * 87,63,30,82,45,58,99,57,63,66,19,19,83,48,60,44,63,85,41,63,77,30,6,56,59,43,84,95,85,27,97,7,99,12,31,27,87,9,97,84,78,30,10,60,27,38,53,34,80,92,11,38,82,27,71,22,42,28,24,78,95,56,93,60,51,16,72,42,36,58,89,14,80,84,76,64,87,13,24,95,62,2,46,3,82,83,39,5,11,2,90,31,56,44,47,79,27
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const squareRoot = num => Math.sqrt(num);
